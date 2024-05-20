@@ -5,7 +5,7 @@ const Home = () => {
     const {user} = useContext(AuthContext)
     console.log(user);
     return (
-        <div>
+        <div className='text-center mt-52'>
             <h2>This is Home {user && <span>{user.displayName}</span>}</h2>
         </div>
     );

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Profile = () => {
     return (
-        <div>
+        <div className='text-center mt-52'>
             <h3>Your User Profile</h3>
         </div>
     );
